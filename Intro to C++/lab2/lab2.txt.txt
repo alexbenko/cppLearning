@@ -1,0 +1,84 @@
+Install an Editor
+-----------------
+I will be using Windows 10 for this class. I am using Visual Studio. To reformat
+a paragraph in Visual studio you need to download an extension on the visual
+studio marketplace. The one I chose will reflow whatever I highlight when I
+press Ctrl K,Q 
+
+
+Install a Compiler
+-------------------
+I downloaded gcc for my compiler. The output is c++: fatal error : no input files
+compilation terminated.
+
+
+
+A Program with Output
+----------------------
+:\Users\AlexB\Desktop>a
+Lab 2, The World's Smallest C++ Program
+Author : Alex Benko
+Editor used: Visual Studio
+Compiler used: GCC
+File: lab2.cpp
+Compiled: Sep  4 2018 at 18:17:48
+
+
+More Programs with Output
+--------------------------
+output-1:
+Hello, World!
+
+output-2: 
+Hello, World!
+
+output-3:
+Hello, World!
+
+output-4:
+Hello, World!
+Ending...
+
+output-5:
+Ending...
+
+output-6:
+Hello
+
+output-7:
+5 > 6 = 0
+6 > 5 = 1
+Then certainly 5 is not equal to 6 correct?  Correct!
+
+output-8:
+5 > 6 = 0
+6 > 5 = 1
+Then certainly 5 is not equal to 6 correct?  Right again! :)
+
+output-9:
+Hi
+Hi, again...
+Hi, again...
+
+output-10:
+why in the world would you do that!
+
+
+Breaking Code
+--------------
+When capitlizing the "i" in "int", I was returned with an error "that does not name a type
+ Int main()
+ ^.".
+
+When I capitlized the "m" in "main, I was given a crazy error ; C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): In function `main':
+C:/crossdev/src/mingw-w64-v4-git/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+
+Adding extra lines or spaces did not break the code though.
+
+Having no spaces in the code returned the big error as well.
+
+Indenting had no effect on the code. Indenting is used to make sure another human can follow what the code is trying to do. It makes it look good as well
+
+Changing the name of the source file had no effect on the code what so ever. The name of the source file is only for the humans to keep track of what each source code file is.
+
